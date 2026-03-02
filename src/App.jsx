@@ -230,9 +230,10 @@ function App() {
         )}
       </div>
 
-      <footer className="mt-10 text-center text-gray-400 text-xs">
-        <p>Project by Maheshwar Verma & Amritanshu Kumar</p>
-        <p>2026</p>
+      <footer className="mt-10 text-center text-gray-400 text-xs space-y-1">
+        <p className="font-medium text-gray-500">Project by Maheshwar Verma & Amritanshu Kumar</p>
+        <p>Under the Guidance of: <strong>Prof. Ajay Kumar</strong></p>
+        <p className="pt-2">2026</p>
       </footer>
     </div>
   );
